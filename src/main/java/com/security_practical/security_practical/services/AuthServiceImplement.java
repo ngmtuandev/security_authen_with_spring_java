@@ -29,7 +29,7 @@ public class AuthServiceImplement implements AuthService{
         userDTO.setUsername(newUser.getUsername());
         userDTO.setUsername(newUser.getUsername());
 
-        return userDTO;
+        return userDTO; // trả về gì -> response register trả về cái đó
 
     }
 }
